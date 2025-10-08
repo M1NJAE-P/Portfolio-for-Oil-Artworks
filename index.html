@@ -8,30 +8,34 @@
   <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
-  <h1>MINJAE.P</h1>
+  <header>
+    <h1>MINJAE.P</h1>
+  </header>
 
-  <div class="intro">
-    Participating in the Post Painting Club as an Artist.<br>
-    Creates Oil Artworks focusing on Buildings and Colors, with given Emotions.
-  </div>
+  <section class="intro">
+    <p>
+      Participating in the Post Painting Club as an Artist.<br>
+      Creates Oil Artworks focusing on Buildings and Colors, with given Emotions.
+    </p>
+  </section>
 
-  <div class="tabs">
-    <button class="tab active" data-target="Artwokrs">Artworks</button>
-    <button class="tab" data-target="Pen Drawing">Pen Drawing</button>
-  </div>
+  <nav class="tabs">
+    <button class="tab active" data-target="Artworks">Artworks</button>
+    <button class="tab" data-target="PenDrawing">Pen Drawing</button>
+  </nav>
 
-  <!-- 창작품 슬라이더 -->
+  <!-- 🎨 Artworks 슬라이더 -->
   <div class="slider active" id="Artworks">
     <button class="prev">&#10094;</button>
     <div class="slider-window">
       <div class="slider-track">
         <div class="slide">
           <img src="images/painting1.jpg" alt="Painting 1">
-          <div class="caption">"감정의 도해 (Decomposition of Emotion)"<br>2025, 90.9x72.7cm, Oil on Canvas</div>
+          <div class="caption">"감정의 도해 (Decomposition of Emotion)"<br>2025, 72.7x90.9cm, Oil on Canvas</div>
         </div>
         <div class="slide">
           <img src="images/painting2.jpg" alt="Painting 2">
-          <div class="caption">"상이의 기억 (Memory of Heterogeneity)"<br>2025, 90.9x72.7cm, Oil on Canvas</div>
+          <div class="caption">"상이의 기억 (Memory of Heterogeneity)"<br>2025, 72.7x90.9cm, Oil on Canvas</div>
         </div>
         <div class="slide">
           <img src="images/painting3.jpg" alt="Painting 3">
@@ -68,14 +72,14 @@
         <div class="slide">
           <img src="images/draft5.jpg" alt="Draft5">
           <div class="caption">"Draft5"<br>2025, 19.0x27.1cm, Oil on Canvas</div>
-        </div>        
+        </div>
       </div>
     </div>
     <button class="next">&#10095;</button>
   </div>
 
-  <!-- 카피 슬라이더 -->
-  <div class="slider" id="Pen Drawing">
+  <!-- ✍️ Pen Drawing 슬라이더 -->
+  <div class="slider" id="PenDrawing">
     <button class="prev">&#10094;</button>
     <div class="slider-window">
       <div class="slider-track">
@@ -88,9 +92,9 @@
     <button class="next">&#10095;</button>
   </div>
 
-  <div class="contact">
+  <footer class="contact">
     <p>CONTACT: <a href="mailto:ART.MINJAE.P@OUTLOOK.KR">ART.MINJAE.P@OUTLOOK.KR</a></p>
-  </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
